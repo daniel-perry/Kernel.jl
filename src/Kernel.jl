@@ -1,10 +1,7 @@
 # Kernel module
 module Kernel
 
-export KernelPCA, GaussianKernel!, GaussianKernel, GaussianKernelPreImage, GaussianKernelDenoise, LinearKernel, PolynomialKernel, ANOVAKernel, ProjectionError, IPKernel, InverseIPKernel, AEPFeature, AEPKernel, AEPCovariance, InverseAEPKernel, LinearMean, LogMap, ExpMap, FrechetMean, PGAFeature, PGAKernel, PGACovariance, InversePGAKernel, SphericalFeature, SphericalFeatureInverse, SphericalKernel, SphericalKernelLowMem, SphericalCosKernel, SphericalCovariance, SphericalCovarianceLowMem
-
-# Kernel PCA
-include("KPCA.jl")
+export GaussianKernel!, GaussianKernel, GaussianKernelPreImage, GaussianKernelDenoise, LinearKernel, PolynomialKernel, ANOVAKernel, ProjectionError, IPKernel, InverseIPKernel, AEPFeature, AEPKernel, AEPCovariance, InverseAEPKernel, LinearMean, LogMap, ExpMap, FrechetMean, PGAFeature, PGAKernel, PGACovariance, InversePGAKernel, SphericalFeature, SphericalFeatureInverse, SphericalKernel, SphericalKernelLowMem, SphericalCosKernel, SphericalCovariance, SphericalCovarianceLowMem
 
 # Kernel definitions
 include("Kernels.jl")
