@@ -2,7 +2,7 @@
 
 ## Contents
 
-Code to compute various known Mercer kernels, as well as Kernel PCA.
+Code to compute various known Mercer kernels.
 
  * Gaussian kernel
  * Polynomial kernel
